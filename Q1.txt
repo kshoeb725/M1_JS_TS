@@ -1,0 +1,17 @@
+
+
+Step 1 : initilasize the javascript , it will create package.json
+        npm init -y
+
+step 2 : After initialising , write the below comand to install typscript 
+
+        npm install typescript
+
+step 3 : To run the typscript , weh have to write 
+
+        tsc filename.ts
+
+stpe 4 : after writng the tsc filename.ts command , a new file will generate filename.js , to execute this .js file write the below command
+        node filename.js
+
+

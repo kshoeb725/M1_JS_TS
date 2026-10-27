@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <center><h1>Product form </h1><center>
+    <br>
+    <br>
+    product Name <input type="text" id = "p1" name="p1">
+    Price <input type="text" id ="p2" name="p2">
+    quantity    <input type="text" id ="p3" name="p3">
+
+    <input type="submit" id ="b1">
+
+    <script>
+        b1.addEventListener("click",()=>{
+        const p1 = document.getElementById("p1").value;
+        const p2 = document.getElementById("p2").value;
+        if(p1.length < 1){
+            alert("it must not be Empty")
+            
+        }else if(p2.length <= 0){
+            alert("Price cannot be neagtive")
+            
+        }
+        else{
+            alert("Ok")
+        }
+    })
+    </script>
+
+</body>
+</html>
